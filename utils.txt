@@ -1,0 +1,2 @@
+c=`ls`;for file in ${c}; do path=${file}; old_name=`ls ${path}`; new_name=${old_name/result/${path}};echo $new_name; cd ${path}; mv ${old_name} ${new_name};cd ..;  done;zip -r save.zip *;
+
