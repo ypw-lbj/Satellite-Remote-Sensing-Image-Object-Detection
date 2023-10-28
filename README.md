@@ -20,10 +20,6 @@ This project is about detecting objects in satellite remote sensing images using
 ## Dataset
 DOTA dataset is a large-scale dataset for object detection in aerial images, containing images from different sensors and platforms. Each image has a pixel size ranging from 800 × 800 to 20,000 × 20,000, and contains objects with various sizes, orientations, and shapes. The dataset has 18 common categories, such as boat, car, plane, etc. You can extend this demo to include more categories or use other models.
  
-## Pretrained Model
-
-The pretrained model used in this project is VGG16 with reduced fully connected layers, which can be downloaded from [here](https://www.freecodecamp.org/chinese/news/how-to-write-a-good-readme-file/).
-
 ## Usage
 
 ### Training
